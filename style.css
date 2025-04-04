@@ -274,14 +274,16 @@
             font-size: 20px;
         }
 
-
-
         /* Skills Section */
 .skills-container {
     display: list-item;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 2rem;
 }
+
+.skills-content {
+            display: list-item;
+            gap: 30px;
 
 .skill-category {
     background-color: white;
